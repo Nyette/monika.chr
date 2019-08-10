@@ -1,0 +1,22 @@
+{
+  "name": "monika.chr",
+  "description": "DDLC-inspired Discord poetry bot",
+  "version": "1.0.0",
+  "author": "Nyette",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0",
+    "secure-env": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
