@@ -1,4 +1,4 @@
-# Monika.chr
+# monika.chr
 
 [DDLC](https://teamsalvato.itch.io/ddlc)-inspired [Discord](https://discord.com/) bot
 

@@ -1,3 +1,3 @@
-module.exports = client => {
-  console.log(`${client.user.username} is ready to help! <3`)
-}
+module.exports = function(client) {
+  console.log(`${client.user.tag} is ready to go!`);
+};

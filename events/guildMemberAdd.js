@@ -1,6 +1,6 @@
-module.exports = (client, member) => {
-  const channel = member.guild.channels.find(ch => ch.name === 'welcome')
+module.exports = function(client, member) {
+  const channel = member.guild.channels.find(ch => ch.name === "welcome");
   if (channel) {
-    channel.send(`Welcome to the server, ${member.user.tag}!`)
+    channel.send(`Welcome to the server, ${member.user.tag}!`);
   }
-}
+};

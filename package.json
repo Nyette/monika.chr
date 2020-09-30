@@ -1,23 +1,21 @@
 {
   "name": "monika.chr",
-  "description": "DDLC-inspired Discord poetry bot",
+  "description": "DDLC-inspired Discord bot",
   "version": "1.0.0",
   "author": "Nyette",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git"
+    "dev": "nodemon .",
+    "start": "node .",
+    "test": "jest"
   },
   "dependencies": {
-    "apify": "^0.15.4",
-    "discord.js": "^11.5.1",
-    "dotenv": "^8.0.0",
-    "secure-env": "^1.0.0"
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "secure-env": "^1.2.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
   }
 }
